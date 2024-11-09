@@ -1,0 +1,27 @@
+
+table {
+    width:100%;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+th {
+    font-size: 20px;
+}
+
+table,th,td {
+    border:1px solid white;
+    text-transform: capitalize;
+}
+
+th,td {
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    table {
+        font-size: 18px;
+    }
+}

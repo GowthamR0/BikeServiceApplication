@@ -1,0 +1,21 @@
+#home-img {
+  height: 500px
+}
+
+@media (min-width: 500px) {
+  #home-img {
+    height: 440px;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+
+#inner-block {
+  background-image: url('./assets/HomeBg1.jpg'); /* Set height to fill the entire viewport height */
+  background-size:100vw 100vh;
+  background-image: fixed;
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+}
